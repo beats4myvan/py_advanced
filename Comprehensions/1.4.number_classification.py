@@ -20,7 +20,7 @@ def even(nums):
 
 
 def odd(nums):
-    num = [str(i) for i in nums if i % 2 == 1]
+    num = [(str(i)) for i in nums if i % 2 == 1]
     final_nums = ', '.join(num)
     return print(f"Odd: {final_nums}")
 
